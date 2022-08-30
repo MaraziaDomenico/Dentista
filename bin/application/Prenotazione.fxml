@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="452.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PrenotazioneController">
+   <children>
+      <Text layoutX="14.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome :">
+         <font>
+            <Font name="Georgia Bold" size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nome" layoutX="190.0" layoutY="46.0" prefHeight="25.0" prefWidth="248.0" />
+      <Text layoutX="14.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cognome :">
+         <font>
+            <Font name="Georgia Bold" size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="cognome" layoutX="190.0" layoutY="98.0" prefHeight="25.0" prefWidth="248.0" />
+      <TextField fx:id="patologia" layoutX="190.0" layoutY="160.0" prefHeight="25.0" prefWidth="248.0" />
+      <Text layoutX="14.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patologia :">
+         <font>
+            <Font name="Georgia Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prestazione :">
+         <font>
+            <Font name="Georgia Bold" size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="prestazione" layoutX="190.0" layoutY="215.0" prefHeight="25.0" prefWidth="248.0" />
+      <TextField fx:id="telefono" layoutX="190.0" layoutY="269.0" prefHeight="25.0" prefWidth="248.0" />
+      <Text layoutX="14.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefono :">
+         <font>
+            <Font name="Georgia Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Durata :">
+         <font>
+            <Font name="Georgia Bold" size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="durata" layoutX="190.0" layoutY="323.0" prefHeight="25.0" prefWidth="248.0" />
+      <Button layoutX="132.0" layoutY="412.0" mnemonicParsing="false" onAction="#invia" prefHeight="108.0" prefWidth="188.0" text="INVIA" textFill="#1400f5">
+         <font>
+            <Font name="Valken Regular" size="34.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

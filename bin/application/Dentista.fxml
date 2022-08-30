@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="672.0" prefWidth="953.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DentistaController">
+   <children>
+      <GridPane layoutX="24.0" layoutY="236.0" prefHeight="422.0" prefWidth="905.0" style="-fx-background-color: lightgrey;">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5b5b5" height="38.0" stroke="BLACK" strokeType="INSIDE" width="139.0" GridPane.columnIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5b5b5" height="38.0" stroke="BLACK" strokeType="INSIDE" width="139.0" GridPane.columnIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5b5b5" height="38.0" stroke="BLACK" strokeType="INSIDE" width="139.0" GridPane.columnIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5b5b5" height="38.0" stroke="BLACK" strokeType="INSIDE" width="139.0" GridPane.columnIndex="4" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5b5b5" height="38.0" stroke="BLACK" strokeType="INSIDE" width="134.0" GridPane.columnIndex="5" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lunedì" textAlignment="CENTER" wrappingWidth="129.478515625" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Martedì" textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mercoledì" textAlignment="CENTER" wrappingWidth="129.478515625" GridPane.columnIndex="3">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Giovedì" textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.columnIndex="4">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Venerdì" textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.columnIndex="5">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5b5b5" height="38.0" stroke="BLACK" strokeType="INSIDE" width="132.0" GridPane.columnIndex="6" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sabato" textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.columnIndex="6">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cdcccc" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.rowIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cdcccc" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.rowIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cdcccc" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.rowIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cdcccc" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.rowIndex="4" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cdcccc" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cdcccc" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.rowIndex="8" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cdcccc" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.rowIndex="9" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cdcccc" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.rowIndex="10" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="9:00 " textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="10:00 " textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="11:00 " textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="12:00 " textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="15:00 " textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="16:00 " textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="17:00 " textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="18:00 " textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cdcccc" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.rowIndex="11" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="19:00" textAlignment="CENTER" wrappingWidth="128.478515625" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="130.0" GridPane.rowIndex="5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="132.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="130.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="129.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="130.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="129.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="131.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="130.0" GridPane.rowIndex="6" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="130.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="130.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="130.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="130.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="130.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d4d4db8" height="35.0" stroke="#4d4d4d" strokeType="INSIDE" width="131.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Rectangle fx:id="r0" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn0" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Rectangle fx:id="r01" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Rectangle fx:id="r02" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Rectangle fx:id="r03" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Rectangle fx:id="r04" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Rectangle fx:id="r05" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Rectangle fx:id="r06" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Rectangle fx:id="r07" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <Rectangle fx:id="r08" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <Rectangle fx:id="r09" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Rectangle fx:id="r010" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Rectangle fx:id="r011" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Rectangle fx:id="r012" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Rectangle fx:id="r013" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Rectangle fx:id="r014" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <Rectangle fx:id="r015" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+            <Rectangle fx:id="r016" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+            <Rectangle fx:id="r017" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+            <Rectangle fx:id="r018" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Rectangle fx:id="r019" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Rectangle fx:id="r020" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Rectangle fx:id="r021" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Rectangle fx:id="r022" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Rectangle fx:id="r023" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <Rectangle fx:id="r024" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <Rectangle fx:id="r025" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+            <Rectangle fx:id="r026" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+            <Rectangle fx:id="r027" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Rectangle fx:id="r028" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Rectangle fx:id="r029" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Rectangle fx:id="r030" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Rectangle fx:id="r031" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Rectangle fx:id="r032" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <Rectangle fx:id="r033" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+            <Rectangle fx:id="r034" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+            <Rectangle fx:id="r035" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="4" GridPane.rowIndex="11" />
+            <Rectangle fx:id="r036" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Rectangle fx:id="r037" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Rectangle fx:id="r038" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Rectangle fx:id="r039" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Rectangle fx:id="r040" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Rectangle fx:id="r041" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <Rectangle fx:id="r042" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+            <Rectangle fx:id="r043" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+            <Rectangle fx:id="r044" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="5" GridPane.rowIndex="11" />
+            <Rectangle fx:id="r045" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Rectangle fx:id="r046" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Rectangle fx:id="r047" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Rectangle fx:id="r048" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Rectangle fx:id="r049" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <Rectangle fx:id="r050" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+            <Rectangle fx:id="r051" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+            <Rectangle fx:id="r052" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+            <Rectangle fx:id="r053" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="37.0" stroke="BLACK" strokeType="INSIDE" width="131.0" GridPane.columnIndex="6" GridPane.rowIndex="11" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn01" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn02" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn03" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn04" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn05" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn06" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn07" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn08" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn09" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn010" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn011" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn012" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn013" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn014" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn015" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn016" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn017" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn018" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn019" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn020" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn021" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn022" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn023" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn024" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn025" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn026" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn027" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn028" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn029" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn030" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn031" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn032" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn033" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn034" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn035" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="11" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn036" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn037" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn038" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn039" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn040" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn041" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn042" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn043" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn044" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="11" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn045" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn046" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn047" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn048" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn049" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn050" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn051" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn052" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btn053" opacity="0.25" prefHeight="32.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="11" />
+         </children>
+      </GridPane>
+      <ImageView fitHeight="219.0" fitWidth="217.0" layoutX="102.0" layoutY="14.0">
+         <image>
+            <Image url="@../../logo.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="313.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STUDIO DENTISTICO">
+         <font>
+            <Font name="Verdana Bold Italic" size="45.0" />
+         </font>
+      </Text>
+      <Text layoutX="319.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dott. Domenico Marazia">
+         <font>
+            <Font name="Trebuchet MS Italic" size="35.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
